@@ -1,0 +1,17 @@
+{
+    "name": "sangnguy/oop-php",
+    "require": {
+        "larapack/dd": "1.0",
+        "fzaninotto/faker": "1.9",
+        "pecee/simple-router": "4.2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/common.php",
+            "vendor/pecee/simple-router/helpers.php"
+        ]
+    }
+}
